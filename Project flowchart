@@ -1,0 +1,21 @@
+products
+---------
+id (primary key)
+name
+description
+price
+
+orders
+---------
+id (primary key)
+user_id (foreign key to users)
+product_id (foreign key to products)
+order_date
+total
+
+users
+---------
+id (primary key)
+username
+email
+password
